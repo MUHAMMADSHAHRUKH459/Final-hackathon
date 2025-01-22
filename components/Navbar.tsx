@@ -1,4 +1,3 @@
-
 "use client";
 import Link from "next/link"; 
 import { Navlinks } from "@/constants"; 
@@ -94,7 +93,7 @@ const Navbar = () => {
             >
               <Link
                 href={links.link}
-                className="!p-0 !border-none"
+                className="!p-0 !border-none text-black"
               >
                 {links.name}
               </Link>

@@ -204,7 +204,7 @@ const Hero = () => {
       </motion.div>
 
       <div className="container mx-auto min-h-screen mt-24 overflow-x-hidden">
-      <h1 className="text-[48px] font-extrabold text-black text-center mt-24">
+      <h1 className="text-[48px] font-extrabold text-black text-center mt-24 bg-white">
           NEW ARRIVALS
         </h1>
 
@@ -213,7 +213,7 @@ const Hero = () => {
             <ProductCards
               title="Vertical Stripped Shirt"
               price={212}
-              imgSrc="/images/greens.png"
+              imgSrc="/images/ver.jpg"
               rating={5.0}
               oldPrice={232}
               discount="-20%"
@@ -221,19 +221,19 @@ const Hero = () => {
             <ProductCards
               title="Courage Graphics T-shirt"
               price={145}
-              imgSrc="/images/bw.png"
+              imgSrc="/images/kav.jpg"
               rating={4.0}
             />
             <ProductCards
               title="Loose Fit Bermuda Shorts"
               price={80}
-              imgSrc="/images/short.png"
+              imgSrc="/images/ber.jpg"
               rating={3.0}
             />
             <ProductCards
-              title="Faded Skinny Jeans"
+              title="ONE LIFE GRAPHIC T-SHIRT"
               price={210}
-              imgSrc="/images/blackp.png"
+              imgSrc="/images/life.jpg"
               rating={4.5}
             />
           </div>
@@ -243,7 +243,7 @@ const Hero = () => {
         </div>
         
 
-        <h1 className="text-[48px] font-extrabold text-black text-center mt-24">
+        <h1 className="text-[48px] font-extrabold text-white text-center mt-24">
           TOP SELLING
         </h1>
 
@@ -295,18 +295,18 @@ const Hero = () => {
                   className="lg:w-1/4 h-full rounded-[30px] p-5 bg-[url(/images/tatoo.png)] bg-no-repeat bg-center bg-cover cursor-pointer"
                   onClick={() => router.push("/casual")}
                 >
-                  <h1 className="text-3xl font-bold">Casual</h1>
+                  <h1 className="text-3xl font-bold text-black">Casual</h1>
                 </div>
                 <div className="lg:w-3/4 h-full rounded-[30px] p-5 bg-[url(/images/coat.png)] bg-no-repeat bg-center bg-cover">
-                  <h1 className="text-3xl font-bold">Formal</h1>
+                  <h1 className="text-3xl font-bold text-black">Formal</h1>
                 </div>
               </div>
               <div className="w-full h-[289px] flex flex-col lg:flex-row gap-4">
                 <div className="lg:w-3/4 h-full rounded-[30px] p-5 bg-[url(/images/girl.png)] bg-no-repeat bg-center bg-cover">
-                  <h1 className="text-3xl font-bold">Party</h1>
+                  <h1 className="text-3xl font-bold text-black">Party</h1>
                 </div>
                 <div className="lg:w-1/4 h-full rounded-[30px] p-5 bg-[url(/images/gym.png)] bg-no-repeat bg-center bg-cover">
-                  <h1 className="text-3xl font-bold">Formal</h1>
+                  <h1 className="text-3xl font-bold text-black">Formal</h1>
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@ const Hero = () => {
 
         <div className="mt-24">
           <div className="container mx-auto flex items-center justify-between px-6 lg:px-0">
-            <h1 className="text-xl md:text-3xl font-extrabold text-black text-center">
+            <h1 className="text-xl md:text-3xl font-extrabold text-black text-center bg-white">
               OUR HAPPY CUSTOMERS
             </h1>
             <div className="flex items-center gap-1">
