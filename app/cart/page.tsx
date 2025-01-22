@@ -201,7 +201,7 @@ const Index = () => {
                     type="text"
                     value={promoCode}
                     onChange={(e) => setPromoCode(e.target.value)}
-                    placeholder="Enter promo code MUSKAN"
+                    placeholder="Enter promo code SHAHRUKH JAVED"
                     className="border border-neutral-300 rounded-md p-2 w-full"
                   />
                   <button

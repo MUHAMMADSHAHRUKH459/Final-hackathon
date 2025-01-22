@@ -188,7 +188,7 @@ const Footer = () => {
         <div className="mt-16 py-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-[#00000099] text-sm">
-              Shop.co &copy;Muskan Nisar 2000-2023, All Rights Reserved
+              Shop.co &copy;Shahrukh Javed 2002-2024, All Rights Reserved
             </p>
             <div className="flex gap-4">
               <img src="/images/visa.png" alt="Visa" className="h-8" />
