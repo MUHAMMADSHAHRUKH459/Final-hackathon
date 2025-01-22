@@ -78,7 +78,7 @@ const Index = () => {
 
   const applyPromoCode = () => {
     const subtotal = calculateSubtotal();
-    if (promoCode === "MUSKAN") { // promo code "MUSKAN"
+    if (promoCode === "Shahrukh Javed") { // promo code "Shahrukh Javed"
       const discountAmount = subtotal * 0.1; // Calculate 10% discount
       setDiscount(discountAmount);
       setIsPromoApplied(true); // Mark promo as applied
